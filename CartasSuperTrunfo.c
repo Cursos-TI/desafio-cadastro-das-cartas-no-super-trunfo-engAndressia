@@ -1,25 +1,25 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main() {
+int main(){
 
     printf("Carta 1: \n");
 
-    char estado[20];
-    char codigo_carta[10];
-    char cidade[50];
+    char estado[10];
+    char codigocarta[10];
+    char cidade[10];
     int populacao;
     float area;
     float pib;
-    int pontos_turisticos
+    int pontosturisticos
 
     printf("digite o estado: \n");
-    scanf("%s", &estado);
+    scanf("%c", &estado);
 
     printf("digite o código da carta: \n");
-    scanf("%c", &codigo_carta);
+    scanf("%c", &codigocarta);
 
     printf("digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%c", &cidade);
     
     printf("digite a população: \n");
     scanf("%d", &populacao);
@@ -31,26 +31,26 @@ int main() {
     scanf("%f", &pib);
 
     printf("digite o número de pontos turísticos: \n");
-    scanf("%d", &pontos_tursticos);
+    scanf("%d", &pontostursticos);
 
     printf("Carta 2: \n");
 
-    char estado[20]
+    char estado[10]
     char codigo_carta[10];
-    char cidade[50]
-    int numero_populacao;
+    char cidade[50];
+    int numeropopulacao;
     float area;
     float pib;
-    int pontos_turisticos;
+    int pontosturisticos;
 
     printf("digite o estado: \n");
-    scanf("%s", &estado);
+    scanf("%c", &estado);
 
     printf("digite o codigo da carta: \n");
-    scanf("%c", &codigo_carta);
+    scanf("%c", &codigocarta);
 
     printf("digite o nome da cidade: \n");
-    scanf("%s", &cidade);
+    scanf("%c", &cidade);
     
     printf("digite a população: \n");
     scanf("%d", &populacao);
@@ -62,7 +62,7 @@ int main() {
     scanf("%f", &pib);
 
     printf("digite o número de pontos turísticos: \n");
-    scanf("%d", &pontos_turisticos);
+    scanf("%d", &pontosturisticos);
 
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
