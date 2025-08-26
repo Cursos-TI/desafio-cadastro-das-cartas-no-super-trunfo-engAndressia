@@ -1,71 +1,68 @@
-#include <stdio.h>
-
-// Desafio Super Trunfo - Países
-
+#include<stdio.h>
 
 int main() {
 
     printf("Carta 1: \n");
 
-    char estado;
-    char código_carta[50];
+    char estado[20];
+    char codigo_carta[10];
     char cidade[50];
-    int população;
-    float área;
+    int populacao;
+    float area;
     float pib;
-    int pontos_turísticos;
+    int pontos_turisticos
 
     printf("digite o estado: \n");
     scanf("%s", &estado);
 
-    printf("digite o codigo da carta: \n");
-    scanf("%c", &código_carta);
+    printf("digite o código da carta: \n");
+    scanf("%c", &codigo_carta);
 
     printf("digite o nome da cidade: \n");
     scanf("%s", &cidade);
     
     printf("digite a população: \n");
-    scanf("%d", &população);
+    scanf("%d", &populacao);
 
     printf("digite a área: \n");
-    scanf("%f", &área);
+    scanf("%f", &area);
 
     printf("digite o pib: \n");
     scanf("%f", &pib);
 
     printf("digite o número de pontos turísticos: \n");
-    scanf("%d", &pontos_turísticos);
+    scanf("%d", &pontos_tursticos);
 
     printf("Carta 2: \n");
 
-    char estado;
-    char código_carta[50];
+    char estado[20]
+    char codigo_carta[10];
     char cidade[50]
-    int numero_população;
-    float área;
+    int numero_populacao;
+    float area;
     float pib;
-    int pontos_turísticos;
+    int pontos_turisticos;
 
     printf("digite o estado: \n");
     scanf("%s", &estado);
 
     printf("digite o codigo da carta: \n");
-    scanf("%c", &código_carta);
+    scanf("%c", &codigo_carta);
 
     printf("digite o nome da cidade: \n");
     scanf("%s", &cidade);
     
     printf("digite a população: \n");
-    scanf("%d", &população);
+    scanf("%d", &populacao);
 
     printf("digite a área: \n");
-    scanf("%f", &área);
+    scanf("%f", &area);
 
     printf("digite o pib: \n");
     scanf("%f", &pib);
 
     printf("digite o número de pontos turísticos: \n");
-    scanf("%d", &pontos_turísticos)
+    scanf("%d", &pontos_turisticos);
 
 
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
